@@ -1,11 +1,32 @@
 #frame {
     display: flex;
+    margin: auto;
     border: 1px solid black;
     height: 960px;
     width: 960px;
-    justify-content: center;
+    flex-direction: row;
 };
 
-.sketchDiv {
-    flex: 1;
+.sketchRow {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 100%;
+}
+
+#button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.red {
+    background-color:red;
+}
+.blue {
+    background-color: blue;
+}
+.green {
+    background-color: green;
+}
+button {
+    margin: 10px;
 }
